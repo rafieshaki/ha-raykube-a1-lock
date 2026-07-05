@@ -1,7 +1,7 @@
 {
   "domain": "serrure_raykube",
   "name": "Serrure RAYKUBE A1",
-  "version": "1.2.0",
+  "version": "1.0.0-alpha",
   "config_flow": true,
   "documentation": "https://github.com/rafieshaki/serrure-raykube",
   "issue_tracker": "https://github.com/rafieshaki/serrure-raykube/issues",

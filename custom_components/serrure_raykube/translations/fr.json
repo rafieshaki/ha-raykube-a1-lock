@@ -1,0 +1,42 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Serrure RAYKUBE A1",
+        "description": "Saisissez les identifiants de votre projet Tuya Cloud. Ils restent stockes localement dans Home Assistant.",
+        "data": {
+          "client_id": "Client ID (Access ID)",
+          "client_secret": "Access Secret",
+          "device_id": "Device ID de la serrure",
+          "region": "Region du data center Tuya"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Identifiants Tuya invalides.",
+      "cannot_connect": "Connexion a l'API Tuya impossible."
+    },
+    "abort": {
+      "already_configured": "Cette serrure est deja configuree."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "battery": {
+        "name": "Batterie"
+      },
+      "lock_state": {
+        "name": "État",
+        "state": {
+          "locked": "Verrouillé",
+          "unlocked": "Déverrouillé"
+        }
+      }
+    },
+    "event": {
+      "alert": {
+        "name": "Alerte"
+      }
+    }
+  }
+}
